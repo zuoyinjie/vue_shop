@@ -7,3 +7,6 @@ html,body,#app{
 .el-breadcrumb{
     margin-bottom: 20px;
 }
+.el-scrollbar__wrap {
+    height: 300px !important;
+  }

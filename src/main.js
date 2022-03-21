@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router'
 import './plugins/element.js'
 import axios from 'axios'
+import TreeTable from 'vue-table-with-tree-grid'
 
 Vue.config.productionTip = false
 // 设置基本url与挂载axios到vue原型
@@ -14,6 +15,7 @@ axios.interceptors.request.use(config=>{
   return config
 })
 Vue.prototype.$http = axios
+Vue.component('tree-table',TreeTable)
 
 new Vue({
   router,
