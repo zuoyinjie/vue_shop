@@ -10,6 +10,7 @@ import 'quill/dist/quill.snow.css'
 import 'quill/dist/quill.bubble.css'
 
 
+
 Vue.config.productionTip = false
 // 设置基本url与挂载axios到vue原型
 axios.defaults.baseURL='http://127.0.0.1:8888/api/private/v1/'
