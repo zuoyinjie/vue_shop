@@ -10,6 +10,6 @@ html,body,#app{
 .el-scrollbar__wrap {
     height: 300px !important;
   }
-.el-input__inner{
-    width: 250px !important;
+.ql-blank{
+    height: 500px !important;
 }
